@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="ConsciousCloset | Home">
+    <title>ConsciousCloset | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', Arial, sans-serif;
+            background-color: #f5f5f5; /* Light cream */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #6c9b84; /* Sage green */
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #555;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #6c9b84; /* Sage green */
+        }
+
+        .hero {
+            background: #d9e9d9; /* Light sage green */
+            padding: 3rem 2rem;
+            text-align: center;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            color: #555;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+        }
+
+        .section h2 {
+            color: #6c9b84; /* Sage green */
+            font-weight: 600;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #6c9b84; /* Sage green */
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #5a7f68; /* Darker sage green */
+        }
+
+        .brand-card {
+            background: #f9f9f9; /* Light gray */
+            border: 1px solid #e0e0e0; /* Light border */
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: box-shadow 0.3s;
+        }
+
+        .brand-card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: rgb(160, 182, 147);
+            padding: 1rem 2rem;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+
+            .hero {
+                padding: 2rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">ConsciousCloset</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="brand.html">Sustainable Brands</a>
+            <a href="thrift.html">Find Thrift Stores</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to ConsciousCloset</h1>
+        <p>Your go-to platform for sustainable fashion and thrift store discovery.</p>
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Our Mission</h2>
+            <p>Promoting sustainable fashion by helping you discover eco-friendly brands and local thrift stores that make a difference.</p>
+        </div>
+        <div class="section">
+            <h2>Featured Sustainable Brands</h2>
+            <p>Explore brands committed to ethical practices and transparency in their products.</p>
+            <div class="brand-card">
+                <h3>Brand Name 1</h3>
+                <p>Short description of the brand and its sustainability efforts.</p>
+            </div>
+            <div class="brand-card">
+                <h3>Brand Name 2</h3>
+                <p>Short description of the brand and its sustainability efforts.</p>
+            </div>
+            <div class="brand-card">
+                <h3>Brand Name 3</h3>
+                <p>Short description of the brand and its sustainability efforts.</p>
+            </div>
+            <a href="brand.html" class="btn">Explore Brands</a>
+        </div>
+        <div class="section">
+            <h2>Find Thrift Stores Near You</h2>
+            <p>Discover local thrift stores that offer quality second-hand items.</p>
+            <a href="thrift.html" class="btn">Find Stores</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ConsciousCloset. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
